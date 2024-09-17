@@ -18,7 +18,7 @@ const props = defineProps({
   }
 })
 
-const logoImg = '/public/img/pageLogo.png'
+const logoImg = '/img/pageLogo.png'
 </script>
 
 <style scoped></style>
