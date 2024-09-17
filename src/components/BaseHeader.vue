@@ -2,7 +2,7 @@
   <section class="header">
     <div class="header__wrap">
       <video width="100%" height="100%" class="header__video" autoplay loop muted>
-        <source :src="videoSrc" type="video/mp4" />
+        <source src="/img/video.mp4" type="video/mp4" />
         Видео не поддерживается браузером
       </video>
     </div>
@@ -92,13 +92,7 @@
   </section>
 </template>
 
-<script setup lang="ts">
-import { ref } from 'vue'
-import videoFile from '/video/video.mp4'
-
-// Используйте переменную видео
-const videoSrc = ref(videoFile)
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 .header {
