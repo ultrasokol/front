@@ -2,7 +2,7 @@
   <section class="header">
     <div class="header__wrap">
       <video width="100%" height="100%" class="header__video" autoplay loop muted>
-        <source src="/video/video.mp4" type="video/mp4" />
+        <source src="/public/video/video.mp4" type="video/mp4" />
         Видео не поддерживается браузером
       </video>
     </div>
