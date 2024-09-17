@@ -6,7 +6,7 @@
         <div class="services__wrapper1">
           <Transition name="arrow2">
             <div v-if="showArrow2" class="services__arrow2">
-              <img class="services__img" src="/public/img/arrow.svg" alt="arrow" />
+              <img class="services__img" src="/img/arrow.svg" alt="arrow" />
             </div>
           </Transition>
           <ul class="services__list list-reset">
@@ -44,7 +44,7 @@
           </ul>
           <Transition name="arrow">
             <div v-if="showArrow" class="services__arrow">
-              <img class="services__img" src="/public/img/arrow.svg" alt="arrow" />
+              <img class="services__img" src="/img/arrow.svg" alt="arrow" />
             </div>
           </Transition>
         </div>
@@ -58,7 +58,7 @@
                   class="services__contactImg"
                   width="76"
                   height="76"
-                  src="/public/img/photo.jpg"
+                  src="/img/photo.jpg"
                   alt="phone"
                 />
               </div>
@@ -88,115 +88,115 @@ const scrollList = ref<HTMLUListElement | null>(null)
 
 const images = ref([
   {
-    src: '/public/img/lenta1.png',
+    src: '/img/lenta1.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta2.png',
+    src: '/img/lenta2.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta3.png',
+    src: '/img/lenta3.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta4.png',
+    src: '/img/lenta4.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta5.png',
+    src: '/img/lenta5.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta6.png',
+    src: '/img/lenta6.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta7.png',
+    src: '/img/lenta7.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta8.png',
+    src: '/img/lenta8.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta9.png',
+    src: '/img/lenta9.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta10.png',
+    src: '/img/lenta10.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta11.png',
+    src: '/img/lenta11.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta12.png',
+    src: '/img/lenta12.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta13.png',
+    src: '/img/lenta13.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta14.png',
+    src: '/img/lenta14.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta15.png',
+    src: '/img/lenta15.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta16.png',
+    src: '/img/lenta16.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta17.png',
+    src: '/img/lenta17.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta18.svg',
+    src: '/img/lenta18.svg',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta19.png',
+    src: '/img/lenta19.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta20.png',
+    src: '/img/lenta20.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta21.png',
+    src: '/img/lenta21.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta22.png',
+    src: '/img/lenta22.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta23.png',
+    src: '/img/lenta23.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta24.png',
+    src: '/img/lenta24.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta25.png',
+    src: '/img/lenta25.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta26.png',
+    src: '/img/lenta26.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta27.png',
+    src: '/img/lenta27.png',
     alt: 'image'
   },
   {
-    src: '/public/img/lenta28.png',
+    src: '/img/lenta28.png',
     alt: 'image'
   }
 ])
