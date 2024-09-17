@@ -94,8 +94,10 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import videoFile from '/video/video.mp4'
 
-const videoSrc = 'video/video.mp4'
+// Используйте переменную видео
+const videoSrc = ref(videoFile)
 </script>
 
 <style scoped lang="scss">
