@@ -14,7 +14,7 @@ export const getPhoto = async () => {
     const query = qs.stringify(
       {
         pagination: {
-          limit: 100 // Устанавливаем лимит на 100 записей (можно задать больше)
+          limit: 10000
         },
         populate: '*'
       },

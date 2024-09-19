@@ -38,6 +38,7 @@ const fetchPhoto = async () => {
 onMounted(async () => {
   window.scrollTo(0, 0)
   await fetchPhoto()
+  console.log(filterSubjectShooting.value)
 })
 </script>
 

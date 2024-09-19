@@ -23,7 +23,6 @@ export const getVideo = async () => {
     const response = await axios.get<ApiResponseVideo>(`${URL_VIDEO}?${query}`, {
       headers: { Authorization: `Bearer ${token}` }
     })
-    console.log(response)
     status.value = response.status
     data.value = response.data
   } catch (err) {
