@@ -1,13 +1,20 @@
 <template>
   <div>
     <div class="photo__wrapper">
-      <img class="photo__img" :src="photoCatalog.attributes.img" alt="image" />
-      <!-- <div class="photo">
-        <div class="product__wrap">
-          <h3 class="product__title">{{ photoCatalog.attributes.description }}</h3>
-          <h3 class="product__title">{{ photoCatalog.attributes.title }}</h3>
-        </div>
-      </div> -->
+      <img
+        v-if="photoCatalog && photoCatalog.attributes && photoCatalog.attributes.img"
+        class="photo__img"
+        :src="photoCatalog.attributes.img"
+        alt="image"
+      />
+      <img
+        v-if="photoCatalog && photoCatalog.attributes?.image?.data?.attributes?.url"
+        class="photo__img"
+        :src="photoCatalog.attributes?.image?.data.attributes.url"
+        height="100%"
+        width="100%"
+      />
+      <h3 class="product__title">{{ photoCatalog.attributes.description }}</h3>
     </div>
   </div>
 </template>
@@ -37,7 +44,7 @@ const props = defineProps({
 // }
 .photo__img {
   width: 100%;
-  height: 100%;
+  height: 100%; // Или другой фиксированный размер, если требуется
 }
 .photo__wrapper {
   width: 100%;

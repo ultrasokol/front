@@ -17,7 +17,7 @@ export const useStore = defineStore('store', () => {
 
   async function getPhotoPost() {
     const response = await getPhoto()
-    if (response.status === 200 && response.data && response.data.data) {
+    if (response.status === 200) {
       photo.value = response.data.data as DataItem[]
     }
   }

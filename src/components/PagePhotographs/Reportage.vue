@@ -33,6 +33,7 @@ const filterReportage = computed(() => store.filterReportage)
 const fetchPhoto = async () => {
   await store.getPhotoPost()
   await store.getReportage()
+  console.log(filterReportage.value)
 }
 
 onMounted(async () => {
